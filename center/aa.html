@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<link>
+<meta charset="utf-8" />
+<meta name="keywords" content=" " />
+<meta name="description" content=" " />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>2016</title>
+<link rel="stylesheet" href="./css/swiper.min.css">
+
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./js/easeljs-0.8.2.min.js"></script>
+<script type="text/javascript" src="./js/soundjs-0.6.2.min.js"></script>
+<body>
+<script>
+$.ajax({
+	type: "post",
+	url: "abc.php",
+	dataType: 'text',
+	data: {
+	},
+	success: function (data) {
+		console.log(data);
+
+	},
+	error: function (xhr, ajaxOptions, thrownError) {
+		alert("错误");
+		console.log("Http status: " + xhr.status + " " + xhr.statusText + "\najaxOptions: " + ajaxOptions + "\nthrownError:" + thrownError + "\n" + xhr.responseText);
+	}
+});
+</script>
+</body
+</html>

@@ -1,0 +1,1 @@
+数据库不可用：/r/n/r/n客户IP:192.168.31.161/r/n时间 :2016-07-22 11:39:43/r/n/r/n错误sql语句：/r/nselect * from all_center order by id desc /r/n客户IP:192.168.31.161/r/n时间 :2016-07-22 11:39:43/r/n/r/n

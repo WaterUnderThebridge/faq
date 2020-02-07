@@ -1,0 +1,1 @@
+错误sql语句：/r/nselect count(id)as num from tickets where tel=''/r/n客户IP:192.168.31.161/r/n时间 :2016-08-05 15:19:46/r/n/r/n错误sql语句：/r/nselect count(id)as num from tickets where tel=''/r/n客户IP:192.168.31.161/r/n时间 :2016-08-05 15:20:56/r/n/r/n

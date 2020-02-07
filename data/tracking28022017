@@ -1,0 +1,17 @@
+1693;new_session;0;140.206.128.42;;;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488248938;
+1693;article_view;25;140.206.128.42;sid=1693&lang=zh&action=artikel&cat=5&id=25&artlang=zh;http://help.thelittlegym.com.cn:81/;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488248959;
+1693;fulltext_search;0;140.206.128.42;action=search&search=ots;http://help.thelittlegym.com.cn:81/index.php?sid=1693&lang=zh&action=artikel&cat=5&id=25&artlang=zh;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488248984;
+1693;fulltext_search;ots;140.206.128.42;action=search&search=ots;http://help.thelittlegym.com.cn:81/index.php?sid=1693&lang=zh&action=artikel&cat=5&id=25&artlang=zh;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488248984;
+1693;article_view;33;140.206.128.42;action=artikel&cat=1&id=33&artlang=zh;http://help.thelittlegym.com.cn:81/?action=search&search=ots;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249000;
+1693;fulltext_search;0;140.206.128.42;action=search&search=%E5%A2%9E%E5%8A%A0;http://help.thelittlegym.com.cn:81/index.php?action=artikel&cat=1&id=33&artlang=zh;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249017;
+1693;fulltext_search;增加;140.206.128.42;action=search&search=%E5%A2%9E%E5%8A%A0;http://help.thelittlegym.com.cn:81/index.php?action=artikel&cat=1&id=33&artlang=zh;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249017;
+1693;article_view;2;140.206.128.42;action=artikel&cat=5&id=2&artlang=zh&highlight=%E5%A2%9E%E5%8A%A0;http://help.thelittlegym.com.cn:81/?action=search&search=%E5%A2%9E%E5%8A%A0;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249026;
+1693;login;0;140.206.128.42;action=login;http://help.thelittlegym.com.cn:81/index.php?action=artikel&cat=5&id=2&artlang=zh&highlight=%E5%A2%9E%E5%8A%A0;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249032;
+1693;login;0;140.206.128.42;;http://help.thelittlegym.com.cn:81/?action=login;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36;1488249038;
+1694;new_session;0;42.156.138.101;action=attachment&id=9;;YisouSpider;1488252336;
+1695;new_session;0;183.32.51.221;;http://118.244.213.26:81;Mozilla/4.0 (compatible, MSIE 9.0, Windows NT 6.1);1488265603;
+1696;new_session;0;183.32.51.221;;http://118.244.214.114:81;Mozilla/4.0 (compatible, MSIE 9.0, Windows NT 6.1);1488265608;
+1697;new_session;0;183.32.51.221;;;Mozilla/4.0 (compatible, MSIE 7.0, Windows NT 6.1, WOW64, Trident/4.0, SLCC2, .NET CLR 2.0.50727, .NET CLR 3.5.30729, .NET CLR 3.0.30729, Media Center PC 6.0, InfoPath.2, .NET4.0C, .NET4.0E);1488265608;
+1698;new_session;0;124.238.163.204;;http://118.244.214.114:81;Mozilla/4.0 (compatible, MSIE 9.0, Windows NT 6.1);1488294034;
+1699;new_session;0;124.238.163.204;;http://118.244.213.26:81;Mozilla/4.0 (compatible, MSIE 9.0, Windows NT 6.1);1488294047;
+1700;new_session;0;66.240.236.119;;;Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36;1488299094;

@@ -1,0 +1,6 @@
+http://swiftmailer.org/
+
+| login     | pass                                                             |
++-----------+------------------------------------------------------------------+
+| admin     | 5973411aa20a8b12689931cb8e703d541eef5e8e054359082a80fe4e43e164ce |
+| anonymous | 5f3ea3a2d6579f370ea2578f1a3ddd79f1d24470e3dac52a2f6b572ec0be042b |

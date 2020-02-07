@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<link>
+<meta charset="utf-8" />
+<meta name="keywords" content=" " />
+<meta name="description" content=" " />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<title>2016 小小运动馆全国冠军赛</title>
+<link rel="stylesheet" href="./css/swiper.min.css">
+<!--<link rel="stylesheet" href="./css/video-js.min.css" type="text/css" />-->
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./js/easeljs-0.8.2.min.js"></script>
+<script type="text/javascript" src="./js/soundjs-0.6.2.min.js"></script>
+<!--<script type="text/javascript" src="./js/video.min.js"></script>-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f08c8ded0df23caf876fd7d6db220fab";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript">
+	(function () {
+		var b = parseInt(window.screen.width),
+			c = b / 640;
+		if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+			var d = parseFloat(RegExp.$1);
+
+			document.write(d > 2.3 ? '<meta name="viewport" content="width=640, user-scalable=0,maximum-scale = 1">' : '<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		} else document.write('<meta name="viewport" content="width=640, user-scalable=0,minimum-scale = ' + c + ',maximum-scale = 1,target-densitydpi=device-dpi">');
+	})();
+
+    /*createjs.Sound.addEventListener("fileload", handleLoadComplete);
+    createjs.Sound.registerSound({src:"./css/music.mp3", id:"music_bg"});
+    var instance= null;
+    function handleLoadComplete(event) {
+        instance = createjs.Sound.play("music_bg",{loop:1000});
+    }*/
+
+    var openid = $.cookie('openid');
+	
+    //if(!openid) window.location.href = 'api/auth.php?redirect=' + encodeURIComponent("http://h5.m2015.cn/center");
+</script>
+<body>
+<div id="PageLoading">
+    <div id="Loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <h2>loading...<span id="progress">0%</span></h2>
+    </div>
+</div>
+<div class="wrapper">
+	<div class="swiper-container swiper-container-v">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide page" id="page-from-1">
+                <div class="index-box">
+                    <img src="images/logo.png" alt=""/>
+                    <div class="btn-box">
+                        <img src="images/tswk.png" alt="" class="tswk-btn"/>
+                        <img src="images/win-btn.png" alt="" class="index-btn"/>
+                        <img src="images/rule-btn.png" alt="" class="rule-btn"/>
+                    </div>
+                </div>
+                <img src="images/index-t.png" alt=""/>
+                <div class="swiper-container swiper-container-h">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-button-next swiper-button-next2"></div>
+                    <div class="swiper-button-prev swiper-button-prev2"></div>
+                </div>
+                
+                <img src="images/jj.png" class="arrow" alt=""/>
+			</div>
+			<div class="swiper-slide page" id="page-from-2">
+                <img src="images/p2-t.png" alt="" class="p2-t"/>
+
+
+                <div class="swiper-container swiper-container-h2">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-button-next swiper-button-next3"></div>
+                    <div class="swiper-button-prev swiper-button-prev3"></div>
+                </div>
+
+
+                <img src="images/p2-btn.png" alt="" class="p2-btn"/>
+                <div class="tswk-box">
+
+                </div>
+                <img src="images/jj.png" class="arrow" alt=""/>
+			</div>
+			<div class="swiper-slide page swiper-no-swiping" id="page-from-3">
+                <img src="images/return-btn.png" alt="" class="p3-return"/>
+                <div class="p3-box">
+                    <div>
+                        <ul class="btn-list">
+
+                        </ul>
+                    </div>
+
+                </div>
+                <img src="images/p3-logo.png" alt=""/>
+			</div>
+		</div>
+	</div>
+    <div class="rule-box hide">
+        <img src="images/rule-text.png" alt=""/>
+        <img src="images/retrun-index.png" alt="" class="rule-retrun"/>
+    </div>
+    <div class="winning-box hide">
+        <img src="images/logo.png" alt=""/>
+        <h1>获奖名单</h1>
+        <p>活动期间，中国队获一枚奥运金牌，会在投票会员中进行抽奖，抽中者可获得奥运纪念礼品一份</p>
+        <div class="win-list-box" id="demo">
+            <div id="demo1">
+                <ul>
+
+                </ul>
+            </div>
+            <div id="demo2">
+
+            </div>
+        </div>
+        <img src="images/retrun-index.png" alt="" class="win-return"/>
+    </div>
+	<div class="p4 hide">
+        <img src="images/share-btn.png" alt=""/>
+        <img src="images/p4-logo.png" alt=""/>
+        <h3 class="center-name">徐家汇中心</h3>
+        <div class="video-box">
+            <div class="frame">
+
+                <!--<video id="example_video_1" class="video-js vjs-default-skin" webkit-playsinline controls preload="none" width="268" height="182"
+                       poster="images/play.jpg"
+                       data-setup="{}">
+                    <source src="http://183.61.13.18/vhot2.qqvideo.tc.qq.com/n0314otn3p8.m701.mp4?vkey=D462E0CDC57EB95E01D92B959B4D3276E5206F6FC028272B78E418C50549AEC05BF416D45B0BD9E3D686158E34BA574EC066515CE13E36C6CF58FD1EE63DB3AA79E78A78EA3E3B0E0669EDAEED9CB81913C3700D11F5D519&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010" type='video/mp4' />
+                    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+                    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+                </video>-->
+
+            </div>
+            <div class="frame">
+                <!--<video id="example_video_2" class="video-js vjs-default-skin" webkit-playsinline controls preload="none" width="268" height="182"
+                       poster="images/play.jpg"
+                       data-setup="{}">
+                    <source src="http://183.61.13.18/vhot2.qqvideo.tc.qq.com/n0314otn3p8.m701.mp4?vkey=D462E0CDC57EB95E01D92B959B4D3276E5206F6FC028272B78E418C50549AEC05BF416D45B0BD9E3D686158E34BA574EC066515CE13E36C6CF58FD1EE63DB3AA79E78A78EA3E3B0E0669EDAEED9CB81913C3700D11F5D519&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010" type='video/mp4' />
+                    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+                    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+                </video>-->
+
+            </div>
+        </div>
+        <div class="vote-box">
+            <div>
+                <img src="images/t1.png" alt=""/><br>
+                <span class="vote-btn1">投票</span>
+                <p class="ticket1"><span>4564</span>票</p>
+            </div>
+            <div>
+                <img src="images/t2.png" alt=""/><br>
+                <span class="vote-btn2">投票</span>
+                <p class="ticket2"><span>4564</span>票</p>
+            </div>
+        </div>
+        <img src="images/p4-t.png" alt="" class="p4-t"/>
+        <div>
+            <div class="p4-box">
+                <img src="images/head.png" alt=""/>
+                <h1>陈叉叉</h1>
+                <p>有爱心，</p>
+
+            </div>
+            <div class="p4-box">
+                <img src="images/head.png" alt=""/>
+                <h1>陈叉叉</h1>
+                <p>有爱心，</p>
+
+            </div>
+        </div>
+
+        <img src="images/retrun-index.png" alt="" class="return-btn"/>
+        <img src="images/comment-btn.png" alt="" class="comment-btn"/>
+        <div class="img-box hide">
+            <img src="" alt="" width="100%"/>
+        </div>
+    </div>
+    <div class="type-box hide">
+        <img src="images/index-t.png" alt="" class="center-title"/>
+        <div class="video-box2">
+            <!--<video id="example_video_3" class="video-js vjs-default-skin" webkit-playsinline controls preload="none" width="512" height="347"
+                   poster="images/play.jpg"
+                   data-setup="{}">
+                <source src="http://183.61.13.22/vhot2.qqvideo.tc.qq.com/x0196r2jrwp.mp4?vkey=5807D0C551594C7A422472B9BB5E718AB017ADE5C0CEEC7869EB6FD3C6BC36C980ED1D3DAB231CD78F34E387FFCC2B60CF5F72A7EFB27A4E7A391D76B9AB598F1645F93A6BF8EA1138F31657C7CC728E3505AE1E1EAF2F1F&br=60&platform=2&fmt=auto&level=0&sdtfrom=v3010" type='video/mp4' />
+                <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+                <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track>&lt;!&ndash; Tracks need an ending tag thanks to IE9 &ndash;&gt;
+            </video>-->
+
+        </div>
+        <div class="box">
+
+            <div class="text-box2">
+                <h2>徐家沤</h2>
+                <h1>陈叉叉</h1>
+                <p><span>123456</span> 票</p>
+                <span class="vote-btn3">投票</span>
+            </div>
+            <img src="images/head.png" alt="" class="head"/>
+        </div>
+        <img src="images/retrun-index.png" alt="" class="type-return"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/go-center.png" alt="" class="go-center"/>
+    </div>
+    <div class="from-box hide">
+        <img src="images/logo.png" alt=""/>
+        <input type="text" class="text-box" id="names" placeholder="姓名："><br>
+        <input type="text" class="text-box" id="tel" placeholder="联系方式："><br>
+        <p>正确填写个人信息，有机会赢取大奖！</p><br>
+        <img src="images/submit.png" class="submit-btn" />
+        <!--<span class="submit-btn">提&nbsp;&nbsp;&nbsp;交</span>-->
+    </div>
+    <div class="comment-box hide">
+        <img src="images/comment-t.png" alt=""/>
+        <div class="content-box">
+
+
+        </div>
+        <div class="comment-from">
+            <div>
+               <!-- <lable>称呼：</lable><input type="text" id="comment-name" ><br>-->
+                <br>
+                <lable>内容：</lable><textarea id="comment" rows="5" cols="30"></textarea>
+            </div>
+
+
+            <span class="comment-submit">提交</span>
+        </div> <br><br>
+        <img src="images/return-btn.png" alt="" class="comment-return"/>
+    </div>
+</div>
+<script type="text/javascript" src="./js/share.js"></script>
+<script type="text/javascript" src="./js/app.js"></script>
+
+
+</body>
+</html>

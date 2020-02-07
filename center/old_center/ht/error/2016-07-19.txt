@@ -1,0 +1,1 @@
+数据库不可用：/r/n/r/n客户IP:192.168.31.161/r/n时间 :2016-07-19 18:21:03/r/n/r/n错误sql语句：/r/nselect * from tickets where tel not in(select tel from winning) group by tel order by id/r/n客户IP:192.168.31.161/r/n时间 :2016-07-19 18:21:03/r/n/r/n

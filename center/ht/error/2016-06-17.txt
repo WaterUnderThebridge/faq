@@ -1,0 +1,1 @@
+错误sql语句：/r/nselect inte.id as ids,* from interest as inte left join car_data as car on inte.car_id = car.id order by car.id desc LIMIT 0,20/r/n客户IP:192.168.31.161/r/n时间 :2016-06-17 11:50:26/r/n/r/n

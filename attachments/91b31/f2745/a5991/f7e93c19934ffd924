@@ -1,0 +1,17 @@
+Dim str
+str = GetMAC()
+MsgBox str
+ 
+Function GetMAC()
+    GetMAC = ""
+    Dim mc,mo
+    Set mc = GetObject("Winmgmts:").InstancesOf("Win32_NetworkAdapterConfiguration")
+    For Each mo In mc
+        If mo.IPEnabled = True Then 
+            'TracePrint "本机网卡MAC地址是: " & mo.MacAddress
+            GetMAC = mo.MacAddress
+            Exit For
+        End If
+    Next
+    Set mc = nothing
+End Function

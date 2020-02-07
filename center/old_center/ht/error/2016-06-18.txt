@@ -1,0 +1,1 @@
+错误sql语句：/r/nselect * from car_data order by id desc /r/n客户IP:192.168.31.161/r/n时间 :2016-06-18 11:03:33/r/n/r/nsql语句错误/r/nselect * from car_data order by id desc /r/n客户IP:192.168.31.161/r/n时间 :2016-06-18 11:03:33/r/n/r/n错误sql语句：/r/nselect * from car_data order by id desc LIMIT 0,20/r/n客户IP:192.168.31.161/r/n时间 :2016-06-18 11:03:33/r/n/r/n

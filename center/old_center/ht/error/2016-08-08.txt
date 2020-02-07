@@ -1,0 +1,1 @@
+错误sql语句：/r/ninsert into winning (ticket_id,names,tel,add_time) values ('2','ooDIBv6bZrwMNrvGde0hE8eBGdKE','nnaa','1470653668')/r/n客户IP:192.168.31.161/r/n时间 :2016-08-08 18:54:28/r/n/r/n
